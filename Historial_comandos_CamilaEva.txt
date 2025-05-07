@@ -1,0 +1,111 @@
+sudo apt update
+echo "hola"
+sudo mount /dev/cdrom /mnt
+cd /mnt
+ls
+sudo sh VBoxLinuxAdditions.run
+sudo reboot
+ssh-keygen
+cat $HOME/.ssh/*.pub
+cat $HOME/ .ssh/id_ed25519.pub
+cat $HOME/.ssh/id_ed25519.pub
+ssh -T git@github.com
+ssh-keygen
+cat~/ssh/id_ed25519.pub
+ls ~/.ssh/*.pub
+ssh-keygen
+n
+cat~/ssh/id_ed25519.pub
+ls ~/.ssh/*.pub
+ssh -keygen
+ssh-keygen
+cat ~/.ssh/id_ed25519.pub
+cat $HOME/ .ssh/id_ed25519.pub
+ssh -T git@github.com
+cd
+mkdir repogit
+cd repogit
+git clone git@github.com:camiilaeva/TP_AySO.git
+mv TP_AysO TP_AySO_antiguo
+git clone git@github.com:camiilaeva/TP_AySO.git
+pwd
+ls
+ls -a
+rm -rf .TP_AySO
+git clone git@github.com:camiilaeva/TP_AySO.git
+ls -a
+pwd
+cd
+rm -rf TP_AySO
+git clone git@github.com:camiilaeva/TP_AySO.git
+cd TP_AySO
+pwd
+ls -l
+cat /etc/os-release
+man grep
+grep HOME_URL /etc/os-release
+grep home_url /etc/os-release
+grep -i Home_url /etc/os-release
+whoami
+echo "Usuario=$(whoami)" > datos_usuario.txt
+ls
+git add
+cat datos_usuario.txt
+git add
+git config --global user.email "camilaevavelasquez1@gmail.com"
+git config --global user.name "CAMILAEVA"
+git commit -m "ADD: agregado 1er ejercicio sobre datos_usuario.txt"
+git add datos_usuario.txt
+git commit -m " ADD:agregado 1er ejercicio sobre datos_usuario.txt"
+git status
+git push
+grep "model name" /proc/cpuinfo | head -n1 >> datos_usuario.txt
+git commit -m "ADD: Anadiendo informacion del CPU"
+cat << EOF >> README.md
+Alumno> Camila Eva Velasquez
+Division: 315
+Turno: Noche
+EOF
+
+git add README.md datos_usuario.txt
+git commit -m "ADD:Añadiendo README y datos de usuario"
+git add datos_usuarios.txt
+git commit -m "feat: Añadiendo informacion de CPU"
+cat <<EOF >> README.md
+> Alumno: Camila Eva Velasquez
+> Division: 315
+> Turno: Noche
+> EOF
+
+
+cat << EOF >> README.md
+> Alumno> Camila Eva Velasquez
+> Division: 315
+> Turno: Noche
+EOF
+
+cat << EOF >> README.md
+> Alumno> Camila Eva Velasquez
+> Division: 315
+> Turno: Noche
+> EOF
+
+
+
+
+cat << EOF >> README.md
+> Alumna: Camila Eva Velasquez
+> Division: 315
+> Turno: Noche
+EOF
+
+git add README.md datos_usuario.txt
+git commit -m"ADD:Añadiendo Readme y datos de usuario"
+git push
+cat README.md
+nano README.md
+cat README.md
+git add README.md datos_usuario.txt
+git commit -m "FIX: Corregi el texto del archivo README.md"
+git push
+history -a
